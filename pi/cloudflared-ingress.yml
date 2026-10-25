@@ -1,0 +1,5 @@
+# Regla para /etc/cloudflared/config.yml del túnel `alfred` en la Pi. Va antes de la regla final `http_status:404`.
+# El CNAME se crea una vez desde una máquina con cert.pem:
+#   cloudflared tunnel route dns alfred work.duv0-x.cloud
+  - hostname: work.duv0-x.cloud
+    service: http://localhost:8081
