@@ -1,6 +1,6 @@
 # Migración: de GoToSocial (echo.duv0-x.cloud) a Gremio (work.duv0-x.cloud)
 
-> **Ejecutada el 2026-10-24.** Pasos 1–7 completos; del paso 8 queda solo el botón "Trabajo" (cuando el perfil tenga web) y el CNAME `echo.` (borrado manual: el token del MCP de Cloudflare no tiene `dns.write`). El respaldo de echo está en la Mac del dueño (`~/Backups/echo.duv0-x.cloud/`).
+> **Ejecutada el 2026-10-24.** Pasos 1–7 completos; del paso 8 queda solo el botón "Trabajo" (cuando el perfil tenga web). El CNAME `echo.` se borró desde el dashboard (el token del MCP de Cloudflare no tiene `dns.write`). El respaldo de echo está en la Mac del dueño (`~/Backups/echo.duv0-x.cloud/`).
 
 `@root@duv0-x.cloud` deja de ser la cuenta de GoToSocial en `echo.duv0-x.cloud` y pasa a ser la instancia de Gremio en `work.duv0-x.cloud`, en la misma Pi `alfred`. **No se migran seguidores ni seguidos**: es una decisión explícita.
 
