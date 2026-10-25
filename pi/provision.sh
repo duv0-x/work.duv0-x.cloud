@@ -49,8 +49,10 @@ if [ ! -f "$DIR/gremio" ]; then
 fi
 if [ ! -f "$DIR/data/gremio.db" ]; then
   echo "== dueño @root"
-  sudo -u gremio GREMIO_DATA_DIR="$DIR/data" "$DIR/gremio" admin init --username root
+  # umask 077: admin init corre fuera del UMask=0077 de gremio.service y, si no, la base queda en 664.
+  sudo -u gremio env GREMIO_DATA_DIR="$DIR/data" sh -c 'umask 077 && exec "$0" admin init --username root' "$DIR/gremio"
 fi
+chmod 600 "$DIR"/data/gremio.db* 2>/dev/null || true
 
 echo "== servicios"
 systemctl enable --now gremio.service gremio-update.timer
