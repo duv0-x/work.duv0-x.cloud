@@ -8,7 +8,7 @@ Repo de la **instancia** de Gremio de Duván (`@root@duv0-x.cloud` en `https://w
 - **Nunca commitear secretos** (SMTP, tokens). Van en Bitwarden y se cargan en la Pi.
 - `GREMIO_HOST` y `GREMIO_ACCOUNT_DOMAIN` son permanentes: Gremio se niega a arrancar si cambian.
 - Subir de versión = PR que cambia `gremio.version`; el merge lo aplica en la Pi.
-- La Pi: `alfred@192.168.1.15`, Debian 13 arm64. Su llave SSH ED25519 es `SHA256:vtZ1eNuK2kbQLhIHnJ/dkJcoJTiOzHZHsRkfEh17jBo`. Si cambia, parar y preguntar.
+- La Pi: `alfred@192.168.1.72`, Debian 13 arm64, solo por cable (`eth0`; el Wi-Fi está apagado con `dtoverlay=disable-wifi`). El journal es persistente. Su llave SSH ED25519 es `SHA256:vtZ1eNuK2kbQLhIHnJ/dkJcoJTiOzHZHsRkfEh17jBo`. Si cambia, parar y preguntar.
 
 ## Contexto
 
