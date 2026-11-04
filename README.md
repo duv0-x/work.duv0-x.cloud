@@ -24,3 +24,13 @@ Este repo no tiene código de Gremio. Solo guarda **qué versión corre la insta
 ## Secretos
 
 Ninguno vive en este repo. Las credenciales SMTP del login (ADR-009 de Gremio) se guardan en Bitwarden y se cargan en la Pi, fuera del control de versiones.
+
+- **SMTP del login**: Resend (`config/gremio.env` tiene host, puerto, usuario y remitente). La clave es una API key de Resend llamada "Gremio", con *Sending access* solo a `papiro.duv0-x.cloud`, guardada en Bitwarden. En la Pi va en `/gremio/secrets.env` (`600`, root), que lee `gremio.service` desde gremio v0.10.0:
+
+  ```bash
+  sudo install -m 600 -o root -g root /dev/null /gremio/secrets.env
+  sudoedit /gremio/secrets.env   # GREMIO_SMTP_PASSWORD=re_…
+  sudo systemctl restart gremio
+  ```
+
+- **Correo del dueño**: `sudo -u gremio GREMIO_DATA_DIR=/gremio/data /gremio/gremio admin set-email <correo>`. Ahí llegan los enlaces de `/login`.
