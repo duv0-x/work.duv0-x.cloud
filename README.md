@@ -15,6 +15,7 @@ Este repo no tiene código de Gremio. Solo guarda **qué versión corre la insta
 | `pi/cloudflared-ingress.yml` | Regla del túnel para `work.duv0-x.cloud`. |
 | `docs/migracion-desde-echo.md` | Runbook de la migración desde GoToSocial (`echo.duv0-x.cloud`). |
 | `docs/migracion-al-apex.md` | Runbook de la migración a `duv0-x.cloud` (#39). |
+| `cv/` | Fuente RenderCV y PDF del CV que publica la instancia (ver `cv/README.md`). |
 
 ## Actualizar Gremio
 
