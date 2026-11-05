@@ -1,5 +1,6 @@
 # Regla para /etc/cloudflared/config.yml del túnel `alfred` en la Pi. Va antes de la regla final `http_status:404`.
-# El CNAME se crea una vez desde una máquina con cert.pem:
-#   cloudflared tunnel route dns alfred work.duv0-x.cloud
-  - hostname: work.duv0-x.cloud
+# El CNAME del apex se crea una vez desde una máquina con cert.pem (si existe otro registro, se borra antes):
+#   cloudflared tunnel route dns alfred duv0-x.cloud
+# work.duv0-x.cloud y www.duv0-x.cloud no llegan a la Pi: una regla de redirección de Cloudflare los manda al apex.
+  - hostname: duv0-x.cloud
     service: http://localhost:8081
