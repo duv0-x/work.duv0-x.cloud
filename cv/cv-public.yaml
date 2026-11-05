@@ -1,0 +1,187 @@
+cv:
+  name: Duván Ballén Rodríguez
+  headline: DevOps and Cloud Engineer
+  location: Medellín, Colombia
+  email: work@duv0-x.cloud
+  social_networks:
+    - network: LinkedIn
+      username: duvanballen
+  
+  sections:
+    summary:
+      - DevOps and Cloud Engineer with 15+ years of hands-on experience in GNU/Linux systems, infrastructure, automation, and cloud architecture. Specialized in building and maintaining self-scaling, resilient infrastructures on AWS using modern technologies and design patterns, including Infrastructure as Code (IaC) with Terraform. Proven track record designing and implementing CI/CD pipelines with CircleCI and GitHub Actions.
+      - Expert in cloud-native and event-driven architecture stacks such as API Gateway, Kubernetes (EKS), EC2, Step Functions, Lambda, SQS, EventBridge, DynamoDB, S3, Cognito, IAM, ElastiCache, and so on. Experience with comprehensive observability stack (X-Ray, NewRelic, CloudWatch, Prometheus and Grafana).
+      - Experienced managing mission-critical production infrastructure and designing highly available architectures. Team leader focused on problem-solving through code, metrics-driven decisions, and operational excellence.
+    
+    skills:
+      - label: Cloud & Infrastructure
+        details: AWS (EKS, ECS, EC2, S3, SQS, EventBridge, Cognito, DynamoDB, Lambda, API Gateway, Elasticache, Step Functions, IAM, among others), VMware vSphere
+      - label: Container Orchestration
+        details: Kubernetes, EKS, ECS
+      - label: Infrastructure as Code
+        details: Terraform
+      - label: CI/CD
+        details: CircleCI, GitHub Actions
+      - label: AI & Automation
+        details: LLM integration, MCP server development, AI agent workflows, prompt engineering
+      - label: Monitoring & Observability
+        details: X-Ray, NewRelic, Prometheus, Grafana, CloudWatch
+      - label: Programming & Scripting
+        details: Python, Shell Scripting (Bash)
+      - label: Operating Systems
+        details: GNU/Linux, BSD
+      - label: Version Control & Collaboration
+        details: Git, GitHub, Bitbucket
+      - label: Languages
+        details: English (B1), Spanish (Native)
+    
+    experience:
+      - company: Lulo Bank S.A.
+        position: DevOps Engineer, Team Lead and Sr Platform Engineer
+        start_date: 2021-05
+        end_date: present
+        location: Bogotá, Colombia (Remote)
+        highlights:
+          - Built AI-powered ChatOps system using LLMs and MCP servers integrated with Slack, enabling natural language Kubernetes operations and reducing incident response.
+          - Lead a team of 3 DevOps engineers, managing infrastructure as code, cloud services for a digital banking and crypto currencies platform (Lulo X) serving more than 200.000 customers
+          - Design, build, and maintain auto-scaling infrastructure on AWS leveraging EKS, ECS, EC2, S3, SQS, EventBridge, Cognito, DynamoDB, Lambda, API Gateway, Elasticache, Step Functions, IAM, among others
+          - Reduced AWS infrastructure costs by 23% through Kubernetes resource optimization, decreasing microservice memory consumption from 2GB to 750MB and increasing pod density per node
+          - Manage 100% of infrastructure as code using Terraform across 100+ version-controlled GitHub and Bitbucket repositories
+          - Implement comprehensive observability stack reducing mean time to resolution (MTTR) by 23% using X-Ray and CloudWatch
+          - Automate deployment and testing pipelines with CircleCI, enabling 100+ deployments per day with 96% success rate
+          - Maintain SOC2 Type II compliance across all production infrastructure with 99% uptime SLA
+      
+      - company: Alkanza S.A.S.
+        position: DevOps Engineer
+        start_date: 2018-01
+        end_date: 2019-12
+        location: Bogotá, Colombia
+        highlights:
+          - Designed and deployed Kubernetes clusters managing 20+ containerized microservices
+          - Implemented Infrastructure as Code using CloudFormation
+          - Configured Jenkins CI/CD pipelines automating deployments and reducing deployment time
+          - Built Jenkins CI/CD pipelines with automated testing, reducing manual QA time
+      
+      - company: Zürich de Occidente S.A.
+        position: Infrastructure Manager / Infrastructure Director
+        start_date: 2015-01
+        end_date: 2018-12
+        location: Bogotá, Colombia
+        highlights:
+          - Promoted from Infrastructure Manager to Director, managing five-person infrastructure team
+          - Administered 50+ production servers across CentOS, Red Hat, Ubuntu and Debian
+          - Managed JBoss, Glassfish, and Payara application server clusters supporting 50+ concurrent users per customer
+          - Maintained critical services like Nginx, Apache, MySQL, PostgreSQL, Zimbra
+          - Administered VMware vSphere virtualization infrastructure with 50+ VMs
+          - Migrated services to Azure and AWS, reducing operational costs
+          - Architected and deployed Docker Swarm clusters for containerized applications
+      
+      - company: Ingenews S.A.S.
+        position: Infrastructure Engineer and Development
+        start_date: 2014-01
+        end_date: 2015-12
+        location: Bogotá, Colombia
+        highlights:
+          - Administered multi-distribution infrastructure including CentOS, Red Hat, Ubuntu, Debian, Endian firewalls, and PfSense (BSD)
+          - Developed shell scripts automating daily operational tasks and reducing manual work
+          - Designed backup solutions protecting 150+ TB of critical data
+          - Implemented monitoring solutions using Nagios and Zabbix
+      
+      - company: OpenBox Ltda.
+        position: Infrastructure Engineer
+        start_date: 2013-01
+        end_date: 2014-12
+        location: Bogotá, Colombia
+        highlights:
+          - Deployed and maintained virtualized environments using VMware and KVM
+          - Configured security infrastructure (pfSense, Endian, IPcop, SonicWall)
+          - Implemented email platform (Zimbra, Postfix, Amavis, Dovecot) serving 300+ users
+          - Automated backup procedures reducing recovery time
+      
+      - company: Ximil Technologies SAS.
+        position: Developer and Systems Administrator
+        start_date: 2012-01
+        end_date: 2013-12
+        location: Bogotá, Colombia
+        highlights:
+          - Managed infrastructure across CentOS, Red Hat and Ubuntu
+          - Developed PHP5/CSS web portal on Joomla CMS for DIMAR (Colombian Maritime Authority)
+          - Deployed email infrastructure using Zimbra for Colombian National Navy serving 500+ users
+          - Created comprehensive installation manuals and technical documentation
+          - Automated backup processes protecting 200+ TB of critical data
+      
+      - company: Shortcut Solutions SAS.
+        position: Developer and Systems Administrator
+        start_date: 2012-01
+        end_date: 2012-12
+        location: Bogotá, Colombia
+        highlights:
+          - Administered CentOS servers with Parallels Plesk Panel hosting 10+ websites
+          - Maintained eBD Development Framework supporting 5 developers
+          - Deployed high-availability Apache cluster reducing production downtime
+          - Built digital signage solution using open-source technologies, eliminating proprietary software licensing fees
+      
+      - company: Document Express
+        position: Developer and Systems Administrator
+        start_date: 2011-01
+        end_date: 2012-12
+        location: Bogotá, Colombia
+        highlights:
+          - Administered core infrastructure services (Web, Firewall, HTTP Proxy and DNS) across Ubuntu and CentOS
+          - Deployed PowerFile document management system (Storage, SGD, BPM modules) managing 5000+ documents
+          - Maintained Wiki documentation platform and Bug Tracker serving 10+ development team members
+          - Automated routine tasks through shell scripting
+      
+      - company: Siscorp de Colombia SAS.
+        position: Developer and Systems Administrator
+        start_date: 2010-01
+        end_date: 2011-12
+        location: Bogotá, Colombia
+        highlights:
+          - Managed GNU/Linux server infrastructure (Web, Firewall, Proxy, DNS, Zimbra) on Fedora and CentOS
+          - Implemented PowerFile document management system for high-profile government projects including Senate, House of Representatives, and Ministry of National Education
+          - Deployed document management solution for Colombian Federation of Municipalities 
+          - Administered collaboration infrastructure (Wiki, Bug Tracker)
+    
+    education:
+      - institution: Colombian School of Engineering Julio Garavito
+        area: Electronic Engineering
+        degree: 6 semesters completed
+        start_date: 
+        end_date:
+        location: Bogotá, Colombia
+        highlights:
+          - Completed advanced coursework in systems architecture and electronics
+      
+      - institution: Grancolombiano Polytechnic
+        area: Systems Engineering
+        degree: 4 semesters completed
+        start_date:
+        end_date:
+        location: Bogotá, Colombia
+        highlights:
+          - Strengthened foundation in systems engineering principles
+      
+      - institution: National Open and Distance University (UNAD)
+        area: Philosophy
+        degree: 2 semesters completed
+        start_date:
+        end_date:
+        location: Bogotá, Colombia
+        highlights:
+          - Developed analytical and critical thinking skills
+    
+    certifications:
+      - bullet: "[Cloud SRE Engineer en AWS](https://www.credential.net/572ddbbb-f45a-4e1d-b8dd-eed9d99abdc7#acc.Zuk18Awx)"
+      - bullet: "[AWS Solutions Architect – Associate (Cloud Architecture Specialist)](https://plataforma.bootcamp.institute/pluginfile.php/1/tool_certificate/issues/1709305690/6054265803DB.pdf)"
+      - bullet: "[Programming for Everybody (Getting Started with Python)](https://www.coursera.org/account/accomplishments/verify/8JK85FK91159)"
+      - bullet: "[Using Python to Access Web Data](https://www.coursera.org/account/accomplishments/verify/TFXR3DIJRPX6)"
+      - bullet: "[Python Data Structures](https://www.coursera.org/account/accomplishments/verify/E3JOFHQ0TY7A)"
+    
+
+
+design:
+  theme: sb2nov
+
+locale:
+  language: english
